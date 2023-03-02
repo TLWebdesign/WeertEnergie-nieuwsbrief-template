@@ -17,22 +17,26 @@
 	table{border-collapse:collapse !important;}
 	body{height:100% !important; margin:0 !important; padding:0 !important;}
 	p {margin:0; padding:0; margin-bottom:0;}
-	h1, h2, h3, h4, h5, h6 {color: black; line-height: 100%;}  
+	h1, h2, h3, h4, h5, h6 {color: #009241; line-height: 100%;}
+	.h1, .h2, .h3, .h4, .h5, .h6 {color: #009241; line-height: 100%;}
 
 	/* our styles */
-	a, a:link { color:#55AAC1; text-decoration: underline; }
+	a, a:link { color:#009241; text-decoration: underline; }
 	body, #body_style {
-		background: #eeeeee;
-		color: #575757;
+		background: #ffffff;
+		color: #252525;
 		font-family: arial, helvetica, sans-serif;
 		font-size: 14px;
-	} 
+	}
+	.text-white {
+		color: #ffffff;
+	}
 	#body_style {
 		padding: 14px;
 	}
-	a:visited { color: #575757; text-decoration: none} 
-	a:focus   { color: #575757; text-decoration: underline}  
-	a:hover   { color: #575757; text-decoration: underline}  
+	a:visited { color: #007F38; text-decoration: none}
+	a:focus   { color: #007F38; text-decoration: underline}
+	a:hover   { color: #007F38; text-decoration: underline}
 
 	.webversion {
 		padding-bottom: 12px;
@@ -166,7 +170,7 @@
 	}
 
 	.footer .text {
-		color: #ffffff;
+		color: #f3f9f5;
 		font-size: 14px;
 		line-height: 20px;
 	}
@@ -348,7 +352,7 @@
 	}
 </style>
 </head>
-<body bgcolor="#eeeeee" link="#575757" text="#575757" alink="#575757"> 
+<body bgcolor="#ffffff" link="#009241" text="#575757" alink="#009241">
 <div id="body_style"> 
 
 <!-- webversion -->
@@ -359,36 +363,22 @@
 </tbody></table>
 
 <!-- wrapper table -->
-<table class="wrapper" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" align="center">
+<table class="wrapper" bgcolor="#f3f9f5" border="0" cellpadding="0" cellspacing="0" width="600" align="center">
 	<tbody><tr>
 		<td class="content" width="100%">
 
 <!-- header -->
 <table border="0" cellpadding="0" cellspacing="0">
-	<tbody><tr>
-		<td class="header"><img lp-edit="" src="index_files/600x120.gif" width="600"></td>
+	<tbody>
+	<tr>
+		<td><img lp-edit="" src="index_files/600x120.gif" width="600"></td>
 	</tr>
-</tbody></table>
-
-<!-- table of contents (optional of course) -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-	<tbody><tr>
-		<td class="toc">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-				<tbody><tr>
-					<td class="h1" align="left">
-						<lp-singleline lp-label="Inhoudsopgave">In deze nieuwsbrief</lp-singleline>
-					</td>
-				</tr>
-				<tr>
-					<td class="text" align="left"><lp-toc></lp-toc></td>
-				</tr>
-			</tbody></table>
-		</td>
+	<tr bgcolor="#009241">
+		<td align="left" class="multiline"><p class="text-white" lp-edit="">Titel nieuwsbrief</p></td>
 	</tr>
-</tbody></table>
+</tbody>
+</table>
 
-<!-- repeating blocks -->
 <lp-repeater>
 
 <!-- multiline with image -->
@@ -432,28 +422,28 @@ de afbeelding heen. De afbeelding kan in grootte worden aangepast en met
 							</tr>
 							<tr>
 								<td class="cols" valign="top" width="100%">
-									<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
+									<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
 										<tbody><tr>
-											<td bgcolor="#ffffff" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
+											<td bgcolor="#f3f9f5" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
 										</tr>
 										<tr>
-											<td class="text" bgcolor="#ffffff"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
+											<td class="text" bgcolor="#f3f9f5"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
 										</tr>
 									</tbody></table>
-									<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
+									<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
 										<tbody><tr>
-											<td bgcolor="#ffffff" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
+											<td bgcolor="#f3f9f5" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
 										</tr>
 										<tr>
-											<td class="text" bgcolor="#ffffff"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
+											<td class="text" bgcolor="#f3f9f5"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
 										</tr>
 									</tbody></table>
-									<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
+									<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="33%" align="left">
 										<tbody><tr>
-											<td bgcolor="#ffffff" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
+											<td bgcolor="#f3f9f5" align="center"><p style="mso-table-lspace:0;mso-table-rspace:0;"><img src="index_files/320x320.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="160"></p></td>
 										</tr>
 										<tr>
-											<td class="text" bgcolor="#ffffff"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
+											<td class="text" bgcolor="#f3f9f5"><lp-multiline lp-label="Onderschrift">Onderschrift</lp-multiline></td>
 										</tr>
 									</tbody></table>
 								</td>
@@ -480,18 +470,18 @@ de afbeelding heen. De afbeelding kan in grootte worden aangepast en met
 				</tr>
 				<tr>
 					<td class="cols" width="100%" align="left">
-						<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+						<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 							<tbody><tr>
-								<td class="image" bgcolor="#ffffff" align="left">
+								<td class="image" bgcolor="#f3f9f5" align="left">
 									<p style="mso-table-lspace:0;mso-table-rspace:0;">
 										<img src="index_files/520x520.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="260">
 									</p>
 								</td>
 							</tr>
 						</tbody></table>
-						<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+						<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 							<tbody><tr>
-								<td class="text" bgcolor="#ffffff" align="left">
+								<td class="text" bgcolor="#f3f9f5" align="left">
 									<p style="mso-table-lspace:0;mso-table-rspace:0;">
 										<lp-multiline lp-label="Text">
 											Dit blok heeft een vaste afbeelding aan de linkerzijde. De 
@@ -529,9 +519,9 @@ verplaatst worden.
 				</tr>
 				<tr>
 					<td class="cols" width="100%" align="left">
-						<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+						<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 							<tbody><tr>
-								<td class="text" bgcolor="#ffffff" align="left">
+								<td class="text" bgcolor="#f3f9f5" align="left">
 									<p style="mso-table-lspace:0;mso-table-rspace:0;">
 										<lp-multiline lp-label="Text">
 											Dit blok heeft een vaste afbeelding aan de linkerzijde. De 
@@ -548,9 +538,9 @@ verplaatst worden.
 								</td>
 							</tr>
 						</tbody></table>
-						<table style="border:1px solid #ffffff" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+						<table style="border:1px solid #f3f9f5" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 							<tbody><tr>
-								<td class="image" bgcolor="#ffffff" align="right">
+								<td class="image" bgcolor="#f3f9f5" align="right">
 									<p style="mso-table-lspace:0;mso-table-rspace:0;">
 										<img src="index_files/520x520.gif" lp-edit="" lp-highres="" class="responsive-img" lp-label="Afbeelding" width="260">
 									</p>
@@ -592,7 +582,7 @@ verplaatst worden.
 
 <!-- footer -->
 <br>
-<table bgcolor="#aaaaaa" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table bgcolor="#009241" border="0" cellpadding="0" cellspacing="0" width="100%">
 	<tbody><tr>
 		<td class="footer">
 			<table class="responsive-table" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -601,28 +591,25 @@ verplaatst worden.
 						<table border="0" cellpadding="0" cellspacing="0" width="100%">
 							<tbody><tr>
 								<td class="cols" valign="top" width="100%">
-									<table style="border:1px solid #aaaaaa" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+									<table style="border:1px solid #009241" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 										<tbody><tr>
-											<td class="text" bgcolor="#aaaaaa">
+											<td class="text" bgcolor="#009241">
 												<p style="mso-table-lspace:0;mso-table-rspace:0;">
 													<lp-multiline lp-label="Tekst">
-														De footer is geschikt voor het tonen van bijvoorbeeld de 
-adresgegevens. De icoontjes aan de rechterzijde worden bij kleinere 
-schermen onder deze tekst geplaatst.
+														<img src="https://weertenergie.nl/images/2019/logo-we-wit.png" width="140px" height="53px">
 													</lp-multiline>
 												</p>
 											</td>
 										</tr>
 									</tbody></table>
-									<table style="border:1px solid #aaaaaa" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
+									<table style="border:1px solid #009241" border="0" cellpadding="0" cellspacing="0" width="50%" align="left">
 										<tbody><tr>
 											<td class="socialmedia" valign="top" align="right">
 												<p style="mso-table-lspace:0;mso-table-rspace:0;">
 													</p><table border="0" cellspacing="0">
 														<tbody><tr>
-															<td width="33%"><img lp-edit="" lp-no-scaling="" src="index_files/icon-facebook.png" height="36" width="36"></td>
-															<td width="33%"><img lp-edit="" lp-no-scaling="" src="index_files/icon-twitter.png" height="36" width="36"></td>
-															<td width="33%"><img lp-edit="" lp-no-scaling="" src="index_files/icon-youtube.png" height="36" width="36"></td>
+															<td width="33%"><a href="https://www.facebook.com/WeertEnergie/" lp-edit=""><img lp-edit="" lp-no-scaling="" src="index_files/icon-facebook.png" height="36" width="36"></a></td>
+															<td width="33%"><a href="https://twitter.com/weertenergie" lp-edit=""><img lp-edit="" lp-no-scaling="" src="index_files/icon-twitter.png" height="36" width="36"></a></td>
 														</tr>
 													</tbody></table>
 												<p></p>
