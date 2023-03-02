@@ -8,3 +8,5 @@ result/index_files/.DS_Store
 .idea/WeertEnergie-nieuwsbrief-template.iml
 result/.DS_Store
 .DS_Store
+*.xml
+result/test.html
